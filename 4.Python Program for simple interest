@@ -1,0 +1,10 @@
+P=int(input("Enter thr principle: "))
+n=int(input("Enter the time: "))
+r=int(input("Enter the number of rate: "))
+I=P*n*r/100
+print("The simple interest: ",I)
+          output:
+          Enter thr principle: 120
+          Enter the time: 3
+          Enter the number of rate: 
+          The simple interest:  25.2
