@@ -1,0 +1,13 @@
+P=float(input('Enter the Principle: '))
+A=float(input('Enter the amount of Interest: '))
+n=float(input('Enter the number of year: '))
+r=float(input('Enter the rate of interast: '))
+A=P*(pow((1+r/100),n))
+CI=A-P
+print('The amount of compund interest is :',CI)
+output:
+Enter the Principle: 1000
+Enter the amount of Interest: 200
+Enter the number of year: 5
+Enter the rate of interast: 10
+The amount of compund interest is : 610.5100000000004
