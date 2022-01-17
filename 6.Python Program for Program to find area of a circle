@@ -1,0 +1,7 @@
+import math
+r=float(input("Enter the redius: "))
+area=math.pi*r*r
+print("Area of circuil=", area)
+output:
+Enter the redius: 4
+Area of circuil= 50.26548245743669
